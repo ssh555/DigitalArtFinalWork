@@ -98,7 +98,7 @@ namespace UIservice
 
         private void PlayCompleteCG()
         {
-            VideoManager.Instance.Play("½á¾Ö.mp4",
+            VideoManager.Instance.Play("End.mp4",
                 onstart: (videoplayer) =>
                 {
                     VideoManager.Instance.IsShowOnEnd = true;

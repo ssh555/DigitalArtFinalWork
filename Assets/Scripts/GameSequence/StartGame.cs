@@ -10,7 +10,7 @@ namespace GameSequence
     {
         private void Start()
         {
-            VideoManager.Instance.Play("¿ª¶Ë.mp4");
+            VideoManager.Instance.Play("Start.mp4");
         }
 
         public void PlayGame()

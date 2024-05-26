@@ -10,7 +10,9 @@ namespace GameSequence
     {
         private void Start()
         {
-            VideoManager.Instance.Play("Start.mp4");
+            VideoManager.Instance.Play("Start.mp4", onend : (videoplayer) => {
+                this.GetComponent<Camera>().clearFlags = CameraClearFlags.Skybox;
+            });
         }
 
         public void PlayGame()

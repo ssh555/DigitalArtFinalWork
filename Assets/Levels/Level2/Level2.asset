@@ -28,6 +28,8 @@ MonoBehaviour:
   targetNode: {fileID: 716432328203489091, guid: 9ba69eed27bf6fe4aa2a0990ae910293,
     type: 3}
   teleportNode: {fileID: 0}
+  Platform: {fileID: 3060472150469661161, guid: f299245d865304849bdd46d82648b645,
+    type: 3}
   cameraScriptableList:
   - {fileID: 11400000, guid: bb1dd246efd4844a2b0cd9cef05a40bf, type: 2}
   - {fileID: 11400000, guid: 8a0147fb17d5f47338c741ac36575ab0, type: 2}

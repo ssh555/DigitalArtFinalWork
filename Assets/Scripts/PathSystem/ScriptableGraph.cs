@@ -20,6 +20,7 @@ namespace PathSystem
         public StarData[] stars=new StarData[0];
         public int maxPlayerMoves=10,noOfEnemies=1;
         public NodeControllerView nodeprefab, targetNode,teleportNode;
+        public GameObject Platform;
         public List<CameraScriptableObj> cameraScriptableList;
         public List<ScriptableNode> Graph = new List<ScriptableNode>();
         public List<Node> GetGraph()

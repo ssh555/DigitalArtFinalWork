@@ -22,6 +22,8 @@ namespace PathSystem
             this.pathService = pathService;
         }
         [SerializeField] List<Node> graph = new List<Node>();
+
+        GameObject _platform;
         public int DrawGraph(ScriptableGraph Graph)
         {
             nodeprefab = Graph.nodeprefab;
@@ -29,6 +31,11 @@ namespace PathSystem
             teleportNode = Graph.teleportNode;
             SetGates(Graph.GatesEdge);
             line = Graph.line;
+            // …Ë÷√Plafform
+            if(Graph.Platform != null)
+            {
+                _platform = GameObject.Instantiate(Graph.Platform, Vector3.zero, Quaternion.identity);
+            }
             for (int i = 0; i < Graph.Graph.Count; i++)
             {
                 Node node = new Node();
@@ -67,7 +74,6 @@ namespace PathSystem
                 }
             }
             return graph.Count;
-
         }
         public void DrawPath(int dir, Vector3 nodePosition)
         {
@@ -90,6 +96,7 @@ namespace PathSystem
         }
         public void DestroyPath()
         {
+            GameObject.Destroy(_platform);
             graph = new List<Node>();
             for (int i = 0; i < physicalPath.Count; i++)
             {

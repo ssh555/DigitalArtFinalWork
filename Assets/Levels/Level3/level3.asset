@@ -28,7 +28,7 @@ MonoBehaviour:
   targetNode: {fileID: 716432328203489091, guid: 9ba69eed27bf6fe4aa2a0990ae910293,
     type: 3}
   teleportNode: {fileID: 0}
-  Platform: {fileID: 3060472150469661161, guid: c66341c6510a6ae41ad254eaa818c469,
+  Platform: {fileID: 3060472150469661161, guid: f299245d865304849bdd46d82648b645,
     type: 3}
   cameraScriptableList:
   - {fileID: 11400000, guid: b4444333d0e814f1f9e722e3e63f20ff, type: 2}

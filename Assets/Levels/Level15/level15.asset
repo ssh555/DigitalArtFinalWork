@@ -42,6 +42,8 @@ MonoBehaviour:
     type: 3}
   teleportNode: {fileID: 716432328203489091, guid: ae9eb49129511344a94f5a6d34e7ecbd,
     type: 3}
+  Platform: {fileID: 3060472150469661161, guid: decdd6cf2811503489762415f8a48ab6,
+    type: 3}
   cameraScriptableList:
   - {fileID: 11400000, guid: 405dfa77b55ea4910be9b0afa25f5343, type: 2}
   - {fileID: 11400000, guid: 2b660a65adf914a5a80574ec35c9c17e, type: 2}
